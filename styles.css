@@ -1,0 +1,26 @@
+/*UConn Brand Guidelines 
+https://brand.uconn.edu/content/uploads/sites/14/2019/11/UCONN-Color-Guidelines.pdf
+*/
+
+body {
+    background-color: #000E2f;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
