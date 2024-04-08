@@ -3,15 +3,33 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width"/>
-        <title>My test page</title>
+        <title>OPIM 3403 - Web Dev Demo</title>
         <link rel="stylesheet" href="styles.css" />
         <script src="script.js"></script>
     </head>
-    <body>
+    <body id="body" class="dark">
+            <!-- Example of a Dark Mode Toggle (COMPLEX) -->
+    <label class="switch">
+        <input type="checkbox" onchange="toggleMode(this)">
+        <span class="slider round"></span>
+    </label>
         <h1>U - C - O - N - N</h1>
         <h2><em>UCONN, UCONN, UCONN</em></h2>
-        <button onClick="playSong()">PLAY</button>
-        <button onClick="pauseSong()">PAUSE</button>
-        <img class="logo" src="images/husky-logo.jpg" alt="UConn Huskies" />
+        
+
+
+    <!-- HTML BUTTON EXAMPLE -->
+        <div class="audioButtons">
+            <br>
+            <button id="play" class="light" onClick="playSong()">PLAY</button>
+            <br><br>
+            <button id="pause" class="light" onClick="pauseSong()">PAUSE</button>
+        </div>
+
+
+        <img id="logo" class="logo" src="images/husky-logo.jpeg" alt="UConn Huskies" />
+        <img id="ncaa" class="logo" src="images/2023-logo.png" alt="NCAA TOURNAMENT" />
+        
+        <p>Professor Tyler Lauretti - OPIM 3403 Intro to Web Development Lecture, University of Connecticut</p>
     </body>
 </html>
