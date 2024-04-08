@@ -1,3 +1,3 @@
 # WebDevDemo
 
-Live Website: https://webdevdemo.s3.amazonaws.com/index.html
+Live Website: https://tylauretti.github.io/WebDevDemo/
