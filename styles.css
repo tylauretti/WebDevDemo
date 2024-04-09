@@ -39,12 +39,12 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vw;
+    height: 7vw;
 }
 
 button{
     width: 15vw;
-    height: 3vw;
+    height: 5vw;
 }
 
 

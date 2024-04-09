@@ -9,7 +9,8 @@ function pauseSong(){
 }
 
 function toggleMode(element){
-    console.log(element.checked)
+    console.log(element.checked) //Here to show True and False as it changes
+
     var body = document.getElementById("body")
     var logo = document.getElementById("logo")
     var ncaa = document.getElementById("ncaa")
@@ -28,7 +29,7 @@ function toggleMode(element){
         play.className = "light"
         pause.className = "light"
         logo.src="images/husky-logo.jpeg"
-        ncaa.src="images/2023-logo.png"
+        ncaa.src="images/2024-logo.jpeg"
     }
 
 }
